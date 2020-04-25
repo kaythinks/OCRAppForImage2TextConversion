@@ -455,3 +455,21 @@ Error during processing. ' with status code 0 occured on line 74 of file/Library
 #5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
 #6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
 #7 {main}!
+ # Saturday 25th of April 2020 09:14:54 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(14): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 09:14:57 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(14): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 09:14:57 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(14): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!

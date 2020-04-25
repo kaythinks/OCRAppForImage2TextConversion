@@ -3,15 +3,14 @@
 namespace Tests\UnitTesting;
 
 use PHPUnit\Framework\TestCase;
+use thiagoalessio\TesseractOCR\TesseractOCR;
 
 class ExampleTest extends TestCase
 {
-	public function testEquals()
+    public function testGetBaeRoute()
     {
-        $this->assertEquals(1, 1);
-    }
-    public function testSuccess()
-    {
-        $this->assertEquals('bar', 'bar');
+    	$data = ( new TesseractOCR('public/SUCCESS.jpg') )->run();
+
+    	$this->assertEquals('SUCCESS',$data);
     }
 }
