@@ -1,8 +1,6 @@
-![GitHub](https://img.shields.io/badge/SEMVER-1.0.1-brightgreen)
-![GitHub](https://img.shields.io/badge/code%20coverage-90%25-orange)
-[![GitHub license](https://img.shields.io/badge/LICENSE-MIT-blue)](https://github.com/kaythinks/kayphpframework/blob/master/LICENSE.md)
+# OCR App.
 
-# This is an optical character recognition App built with the KayPHP framework powered by the Tesseract binary.
+This is an optical character recognition App built with the KayPHP framework powered by the Tesseract binary.
 
 # Installation
 
