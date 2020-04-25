@@ -1,0 +1,457 @@
+ # Tuesday 24th of March 2020 11:14:29 PM :- This route /docs/11 doesn't exist in your Application !
+ # Wednesday 1st of April 2020 08:15:15 PM :- This route /docs/11 doesn't exist in your Application !
+ # Wednesday 1st of April 2020 08:15:30 PM :-This Error ' Class 'App\System\Database' not found ' with status code 0 occured on line 9 of file/Library/WebServer/Documents/kayphpframework/app/Models/Model.php STACKTRACE #0 /Library/WebServer/Documents/kayphpframework/vendor/composer/ClassLoader.php(444): include()
+#1 /Library/WebServer/Documents/kayphpframework/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Library/WebSer...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\Mode...')
+#3 /Library/WebServer/Documents/kayphpframework/app/Models/User.php(7): spl_autoload_call('App\\Models\\Mode...')
+#4 /Library/WebServer/Documents/kayphpframework/vendor/composer/ClassLoader.php(444): include('/Library/WebSer...')
+#5 /Library/WebServer/Documents/kayphpframework/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Library/WebSer...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+#7 /Library/WebServer/Documents/kayphpframework/app/Controllers/LoginController.php(34): spl_autoload_call('App\\Models\\User')
+#8 [internal function]: App\Controllers\LoginController->login(Object(App\Systems\Request))
+#9 /Library/WebServer/Documents/kayphpframework/app/Systems/Router.php(164): ReflectionMethod->invokeArgs(Object(App\Controllers\LoginController), Array)
+#10 /Library/WebServer/Documents/kayphpframework/Route.php(31): App\Systems\Router::post('/login', 'LoginController...')
+#11 /Library/WebServer/Documents/kayphpframework/app/bootstrap.php(26): require('/Library/WebSer...')
+#12 /Library/WebServer/Documents/kayphpframework/index.php(3): require('/Library/WebSer...')
+#13 {main}!
+ # Saturday 11th of April 2020 07:52:26 PM :-This Error ' Call to a member function render() on null ' with status code 0 occured on line 33 of file/Library/WebServer/Documents/kayphpframework/app/Controllers/HomeController.php STACKTRACE #0 /Library/WebServer/Documents/kayphpframework/app/Systems/Router.php(79): App\Controllers\HomeController->index()
+#1 /Library/WebServer/Documents/kayphpframework/Route.php(10): App\Systems\Router::get('/', 'HomeController@...')
+#2 /Library/WebServer/Documents/kayphpframework/app/bootstrap.php(26): require('/Library/WebSer...')
+#3 /Library/WebServer/Documents/kayphpframework/index.php(3): require('/Library/WebSer...')
+#4 {main}!
+ # Saturday 11th of April 2020 11:28:31 PM :-This Error ' Attribute 'data 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/kayphpframework/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/kayphpframework/app/Controllers/DashboardController.php(27): App\Systems\Session::get('data')
+#1 /Library/WebServer/Documents/kayphpframework/app/Systems/Router.php(79): App\Controllers\DashboardController->home()
+#2 /Library/WebServer/Documents/kayphpframework/Route.php(20): App\Systems\Router::get('/dashboard', 'DashboardContro...')
+#3 /Library/WebServer/Documents/kayphpframework/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/kayphpframework/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 09:13:03 PM :-This Error ' Class 'App\Config\Env' not found ' with status code 0 occured on line 39 of file/Library/WebServer/Documents/OCR/app/Systems/Helpers.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/bootstrap.php(19): session_time_counter()
+#1 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#2 {main}!
+ # Friday 24th of April 2020 10:15:33 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(22): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 10:16:02 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(22): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 10:17:25 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(22): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 10:25:30 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(22): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 10:30:42 PM :-This Error ' syntax error, unexpected ')' ' with status code 0 occured on line 65 of file/Library/WebServer/Documents/OCR/app/Controllers/HomeController.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Library/WebSer...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(140): ReflectionClass->__construct('\\App\\Controller...')
+#4 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:48:58 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:49:36 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:49:41 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:49:46 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:50:00 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:51:19 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:51:24 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:51:27 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:51:42 PM :- This Error ' SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) ' with status code 1045 occured on line 19 of file/Library/WebServer/Documents/OCR/app/Systems/Database.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Systems/Database.php(19): PDO->__construct('mysql:dbname=;h...', 'root', '')
+#1 /Library/WebServer/Documents/OCR/app/Models/Model.php(120): App\Systems\Database->__construct()
+#2 /Library/WebServer/Documents/OCR/app/Controllers/LoginController.php(34): App\Models\Model::where('email = 'kaythi...', 'kaythinks@gmail...')
+#3 [internal function]: App\Controllers\LoginController->login(Object(App\Systems\Request))
+#4 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\LoginController), Array)
+#5 /Library/WebServer/Documents/OCR/Route.php(32): App\Systems\Router::post('/login', 'LoginController...')
+#6 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#7 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#8 {main}!
+ # Friday 24th of April 2020 10:51:42 PM :- This Error ' SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) ' with status code 1045 occured on line 19 of file/Library/WebServer/Documents/OCR/app/Systems/Database.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Systems/Database.php(19): PDO->__construct('mysql:dbname=;h...', 'root', '')
+#1 /Library/WebServer/Documents/OCR/app/Systems/Database.php(224): App\Systems\Database->__construct()
+#2 /Library/WebServer/Documents/OCR/app/Models/Model.php(120): App\Systems\Database->whereData('App\\Models\\User', 'email = 'kaythi...')
+#3 /Library/WebServer/Documents/OCR/app/Controllers/LoginController.php(34): App\Models\Model::where('email = 'kaythi...', 'kaythinks@gmail...')
+#4 [internal function]: App\Controllers\LoginController->login(Object(App\Systems\Request))
+#5 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\LoginController), Array)
+#6 /Library/WebServer/Documents/OCR/Route.php(32): App\Systems\Router::post('/login', 'LoginController...')
+#7 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#8 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#9 {main}!
+ # Friday 24th of April 2020 10:51:42 PM :-This Error ' Call to a member function query() on null ' with status code 0 occured on line 229 of file/Library/WebServer/Documents/OCR/app/Systems/Database.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Models/Model.php(120): App\Systems\Database->whereData(Object(App\Models\User), 'email = 'kaythi...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/LoginController.php(34): App\Models\Model::where('email = 'kaythi...', 'kaythinks@gmail...')
+#2 [internal function]: App\Controllers\LoginController->login(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\LoginController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(32): App\Systems\Router::post('/login', 'LoginController...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:52:02 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:52:56 PM :-This Error ' Attribute 'info 'does not exist in this Session object ! ' with status code 1 occured on line 16 of file/Library/WebServer/Documents/OCR/app/Systems/Session.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/Controller.php(59): App\Systems\Session::get('info')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(55): App\Controllers\Controller->getSession('info')
+#2 [internal function]: App\Controllers\HomeController->getOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(85): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 10:56:13 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(23): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 10:59:23 PM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(23): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 11:16:53 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpkTagED doesn't exist in your Application !
+ # Friday 24th of April 2020 11:17:54 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/php0zytQi doesn't exist in your Application !
+ # Friday 24th of April 2020 11:18:29 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/php0zytQi doesn't exist in your Application !
+ # Friday 24th of April 2020 11:18:56 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpx6Z0Fo doesn't exist in your Application !
+ # Friday 24th of April 2020 11:20:10 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpA34K7v doesn't exist in your Application !
+ # Friday 24th of April 2020 11:26:16 PM :-This Error ' Class 'App\Controllers\File' not found ' with status code 0 occured on line 70 of file/Library/WebServer/Documents/OCR/app/Controllers/HomeController.php STACKTRACE #0 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Friday 24th of April 2020 11:27:15 PM :-This Error ' Sorry, file already exists. ' with status code 500 occured on line 36 of file/Library/WebServer/Documents/OCR/app/Systems/File.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(71): App\Systems\File::upload(Array)
+#1 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#2 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#3 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#4 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#5 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#6 {main}!
+ # Friday 24th of April 2020 11:36:06 PM :-This Error ' Error! The image "L3ByaXZhdGUvdmFyL2ZvbGRlcnMvYzcvMTRoeTlmeW41czVkeHYzeGRqZjNra2cwMDAwMGdwL1QvcGhwbm53VVhm" was not found.
+
+The current __DIR__ is /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src ' with status code 0 occured on line 24 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(28): thiagoalessio\TesseractOCR\FriendlyErrors::checkImagePath('L3ByaXZhdGUvdmF...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(72): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Friday 24th of April 2020 11:37:49 PM :- This route /L3ByaXZhdGUvdmFyL2ZvbGRlcnMvYzcvMTRoeTlmeW41czVkeHYzeGRqZjNra2cwMDAwMGdwL1QvcGhwYko0MGVT doesn't exist in your Application !
+ # Friday 24th of April 2020 11:39:14 PM :- This route /L3ByaXZhdGUvdmFyL2ZvbGRlcnMvYzcvMTRoeTlmeW41czVkeHYzeGRqZjNra2cwMDAwMGdwL1QvcGhwNHFYRU1J doesn't exist in your Application !
+ # Friday 24th of April 2020 11:48:57 PM :- This route /L3ByaXZhdGUvdmFyL2ZvbGRlcnMvYzcvMTRoeTlmeW41czVkeHYzeGRqZjNra2cwMDAwMGdwL1QvcGhwRUo3OTU1 doesn't exist in your Application !
+ # Friday 24th of April 2020 11:50:11 PM :- This route /L3ByaXZhdGUvdmFyL2ZvbGRlcnMvYzcvMTRoeTlmeW41czVkeHYzeGRqZjNra2cwMDAwMGdwL1QvcGhwaWg5QmVr doesn't exist in your Application !
+ # Friday 24th of April 2020 11:51:35 PM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpfMj216 doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:02:27 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(23): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 12:17:34 AM :- This route /16005 doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:19:49 AM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpD7JJBa doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:20:45 AM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpnuklhB doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:22:14 AM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpks9IJc doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:26:34 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(16): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 12:26:43 AM :- This route /pix doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:55:14 AM :- This route /pix doesn't exist in your Application !
+ # Saturday 25th of April 2020 12:56:35 AM :-This Error ' syntax error, unexpected '}', expecting ')' ' with status code 0 occured on line 57 of file/Library/WebServer/Documents/OCR/app/Controllers/HomeController.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Library/WebSer...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(57): ReflectionClass->__construct('\\App\\Controller...')
+#4 /Library/WebServer/Documents/OCR/Route.php(15): App\Systems\Router::get('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 12:57:16 AM :-This Error ' Sorry, file already exists. ' with status code 500 occured on line 36 of file/Library/WebServer/Documents/OCR/app/Systems/File.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(57): App\Systems\File::upload(Array)
+#1 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#2 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#3 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#4 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#5 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#6 {main}!
+ # Saturday 25th of April 2020 12:58:11 AM :- This route /pix doesn't exist in your Application !
+ # Saturday 25th of April 2020 01:00:44 AM :-This Error ' Sorry, file already exists. ' with status code 500 occured on line 36 of file/Library/WebServer/Documents/OCR/app/Systems/File.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(57): App\Systems\File::upload(Array)
+#1 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#2 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#3 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#4 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#5 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#6 {main}!
+ # Saturday 25th of April 2020 01:03:57 AM :-This Error ' Sorry, file already exists. ' with status code 500 occured on line 36 of file/Library/WebServer/Documents/OCR/app/Systems/File.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(57): App\Systems\File::upload(Array)
+#1 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#2 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#3 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#4 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#5 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#6 {main}!
+ # Saturday 25th of April 2020 01:08:11 AM :- This route /Array doesn't exist in your Application !
+ # Saturday 25th of April 2020 01:09:18 AM :- This route /Array doesn't exist in your Application !
+ # Saturday 25th of April 2020 01:10:35 AM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpo51uq2 doesn't exist in your Application !
+ # Saturday 25th of April 2020 01:11:03 AM :- This route /private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpAKOXuw doesn't exist in your Application !
+ # Saturday 25th of April 2020 01:24:57 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(17): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(35): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 01:30:43 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(17): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 01:50:44 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(17): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 01:51:42 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpc6dp2L" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrQCHGiv"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 01:55:25 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(17): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 01:55:36 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpgEY7cs" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrqrXKmB"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(70): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:20:04 AM :-This Error ' Token mismatch ' with status code 500 occured on line 30 of file/Library/WebServer/Documents/OCR/app/Controllers/Controller.php STACKTRACE #0 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(15): App\Controllers\Controller->__construct()
+#1 /Library/WebServer/Documents/OCR/app/Systems/Router.php(147): App\Controllers\HomeController->__construct()
+#2 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#3 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#4 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#5 {main}!
+ # Saturday 25th of April 2020 07:33:53 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/php9xU65F" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrek5sov"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:34:40 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpmwfMbM" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrOI0i54"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:35:18 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpkqmTBR" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrPa3BzX"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:37:20 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpClerdD" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrFD7SkP"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:39:37 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpybnDtv" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrXwKEDz"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in pixReadStream: Pdf reading is not supported
+Error in pixRead: pix not read
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:41:40 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpKpvHbB" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocrzl3vWr"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: xÚc`Cüûÿÿ3™ÿ›IÖº
+Image file xÚc`Cüûÿÿ3™ÿ›IÖº cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
+ # Saturday 25th of April 2020 07:42:02 AM :-This Error ' Error! The command did not produce any output.
+
+Generated command:
+"tesseract" "/private/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/phpgAzfLn" "/var/folders/c7/14hy9fyn5s5dxv3xdjf3kkg00000gp/T/ocruLz7bM"
+
+Returned message:
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: PK
+Image file PK cannot be read!
+Error during processing. ' with status code 0 occured on line 74 of file/Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/FriendlyErrors.php STACKTRACE #0 /Library/WebServer/Documents/OCR/vendor/thiagoalessio/tesseract_ocr/src/TesseractOCR.php(39): thiagoalessio\TesseractOCR\FriendlyErrors::checkCommandExecution(Object(thiagoalessio\TesseractOCR\Command), '', 'Tesseract Open ...')
+#1 /Library/WebServer/Documents/OCR/app/Controllers/HomeController.php(63): thiagoalessio\TesseractOCR\TesseractOCR->run()
+#2 [internal function]: App\Controllers\HomeController->postOCR(Object(App\Systems\Request))
+#3 /Library/WebServer/Documents/OCR/app/Systems/Router.php(168): ReflectionMethod->invokeArgs(Object(App\Controllers\HomeController), Array)
+#4 /Library/WebServer/Documents/OCR/Route.php(17): App\Systems\Router::post('/ocr', 'HomeController@...')
+#5 /Library/WebServer/Documents/OCR/app/bootstrap.php(26): require('/Library/WebSer...')
+#6 /Library/WebServer/Documents/OCR/index.php(3): require('/Library/WebSer...')
+#7 {main}!
