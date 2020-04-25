@@ -1,15 +1,16 @@
 # OCR App.
 
 This is an optical character recognition App built with the KayPHP framework powered by the Tesseract binary.
+
 NOTE : - You will need to install the Tesseract binary on your system/server for this to work. 
 
 Run (For MacOS)
 ```
-brew install tesseract-lang
+$ brew install tesseract-lang
 ```
 Run (For Linux)
 ```
-sudo apt-get install tesseract-ocr
+$ sudo apt-get install tesseract-ocr
 ```
 
 # Installation
